@@ -1,0 +1,78 @@
+@font-face {
+  font-family: CormorantUpright;
+  font-display: swap;
+  src: url("../fonts/CormorantUpright-Bold.woff2") format("woff2"), url("../fonts/CormorantUpright-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: CormorantUpright;
+  font-display: swap;
+  src: url("../fonts/CormorantUpright-Regular.woff2") format("woff2"), url("../fonts/CormorantUpright-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: CormorantUpright;
+  font-display: swap;
+  src: url("../fonts/CormorantUpright-SemiBold.woff2") format("woff2"), url("../fonts/CormorantUpright-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: TTTrailers;
+  font-display: swap;
+  src: url("../fonts/TTTrailers-Regular.woff2") format("woff2"), url("../fonts/TTTrailers-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body .calculator-project {
+  background: radial-gradient(circle, #494c53 0%, #494c53 100%);
+}
+body .calculator-project .window-btns button {
+  color: #fff;
+  background: #2c2c30;
+  border: 1px solid #5f6269;
+}
+body .calculator-project .window-btns button:hover {
+  background: #5f6269;
+}
+body .calculator-project .window-btns button:nth-child(1), body .calculator-project .window-btns button:nth-child(2), body .calculator-project .window-btns button:nth-child(3), body .calculator-project .window-btns button:nth-child(4), body .calculator-project .window-btns button:nth-child(8), body .calculator-project .window-btns button:nth-child(12), body .calculator-project .window-btns button:nth-child(16) {
+  background: #3d4047;
+  border: 1px solid #5f6269;
+}
+body .calculator-project .window-btns button:nth-child(1):hover, body .calculator-project .window-btns button:nth-child(2):hover, body .calculator-project .window-btns button:nth-child(3):hover, body .calculator-project .window-btns button:nth-child(4):hover, body .calculator-project .window-btns button:nth-child(8):hover, body .calculator-project .window-btns button:nth-child(12):hover, body .calculator-project .window-btns button:nth-child(16):hover {
+  background: #5f6269;
+}
+body .calculator-project .window-btns button:nth-child(19) {
+  background: #e47630;
+}
+body .calculator-project .window-btns button:nth-child(19):hover {
+  background: #d6ad93;
+}
+
+.calculation {
+  cursor: default;
+  background: transparent;
+  text-align: right;
+  padding: 0 60px;
+  color: #fff;
+  font-size: 2rem;
+}
+.calculation:focus {
+  border: none;
+  outline: none;
+}
+
+.calculation.show {
+  font-size: 1.4rem;
+  bottom: 40px;
+  color: #a7a7a8;
+}
+
+.sum {
+  text-align: right;
+  padding: 0 60px;
+  color: #fff;
+  font-size: 2.5rem;
+}
